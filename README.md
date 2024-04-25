@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# VITTACORA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VITTACORA is a web application developed with React and React Bootstrap for e-commerce purposes. It allows users to browse and purchase a variety of fashion products. The application includes features such as intuitive navigation, shopping cart, and a login form.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone this repository to your local machine.
+2. Navigate to the project folder.
+3. Run `npm install` to install the dependencies.
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Run `npm start` to start the application in development mode.
+2. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Intuitive navigation with a dropdown menu.
+- Shopping cart for adding products.
+- Login form for accessing user account.
+- Responsive design for optimal experience on mobile and desktop devices.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- React: JavaScript library for building user interfaces.
+- React Bootstrap: UI component library for React.
+- FontAwesome: Vector icons for the user interface.
+
+## Contribution
+
+If you want to contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit (`git commit -am 'Add new feature'`).
+4. Push your changes (`git push origin feature/new-feature`).
+5. Open a pull request.
+
+## Authors
+
+- Daniel Argumero
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
