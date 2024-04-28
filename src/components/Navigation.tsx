@@ -50,7 +50,7 @@ const Navigation: React.FC = () => {
               xs={2}
               className="d-flex justify-content-center align-items-end"
             >
-              <span className="navbar-title display-4 fw-bold me-3">
+              <span className="navbar-title display-4 fw-bold me-3 d-none d-md-block">
                 VITTACORA
               </span>
             </Col>

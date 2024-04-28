@@ -4,20 +4,19 @@
 /* Logo styles */
 .logo-image {
   height: 100%;
-  width: 80px;
+  width: 100px;
   filter: invert(1);
 }
 
 .logo-image-login{
-  height: 400px;
+  height: 2vwpx;
   filter: invert(1);
 }
 
 /* Navbar title styles */
 .navbar-title {
   font-family: "Castoro Titling", serif; 
-  font-weight: 4000;
-  font-size: 2.5 rem; /* Adjust font size for a larger title */
+  font-size: 2.5vw; /* Adjust font size for a larger title */
   color: white;
 }
 
