@@ -106,6 +106,7 @@ const Navigation: React.FC = () => {
         onHide={() => setShowLogin(false)}
         placement="start"
         backdropClassName="backdrop"
+        className="Login_Part"
       >
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>

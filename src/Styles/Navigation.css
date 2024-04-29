@@ -10,8 +10,10 @@
 }
 
 .logo-image-login{
-  height: 2vwpx;
+  height: 22vh;
+  width: 20vw;
   filter: invert(1);
+  padding-right: 5rem;
 }
 
 /* Navbar title styles */
@@ -46,3 +48,5 @@
   background-color: transparent !important; /* Makes the Navbar transparent */
   border-bottom: none; /* Eliminates the border bottom */
 }
+
+
