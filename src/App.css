@@ -44,7 +44,7 @@ body {
 
 .Init_Content {
   font-family: "Jersey 25", sans-serif;
-  font-size: 2vw; /* Tamaño de fuente relativo al ancho de la pantalla */
+  font-size: 3vw; /* Tamaño de fuente relativo al ancho de la pantalla */
   height: 70vh;
   max-height: 80vh; /* Altura máxima del 90% de la pantalla */
   display: flex;
@@ -60,7 +60,7 @@ body {
 @media (min-width: 768px) {
   .Init_Content {
     width: 60%;
-    font-size: 2.1vh; /* Ancho del 60% de la pantalla en pantallas grandes */
+    font-size: 2.7vh; /* Ancho del 60% de la pantalla en pantallas grandes */
     text-align: justify;
   }
 }

@@ -8,7 +8,7 @@
     justify-content:flex-start;
     align-items: center;
     width: 100hw;
-    max-width: 60hw;
+    max-width:   60hw;
     margin-bottom: 50px;
   }  
   .overlay-content.hidden {
@@ -18,7 +18,7 @@
   .logo-info {
     margin-top: 0;
     width: auto;
-    height: 30vw;
+    height: 20vw;
     filter: invert(1);
   }
   

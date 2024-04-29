@@ -3,9 +3,10 @@
 
 /* Logo styles */
 .logo-image {
-  height: 80%;
+  height: 60%;
   width: 100px;
   filter: invert(1);
+  margin: 1rem;
 }
 
 .logo-image-login{
